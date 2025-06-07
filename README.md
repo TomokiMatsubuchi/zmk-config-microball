@@ -12,6 +12,11 @@
 以下のリンクからキーマップを視覚的に編集できます：
 https://nickcoutsos.github.io/keymap-editor/
 
+## PDFダウンロード
+
+📄 [最新のキーマップPDFをダウンロード](../../actions/workflows/update-readme.yml) 
+（GitHub ActionsのArtifactsから `keymap-pdf` をダウンロードしてください）
+
 ## 現在のキーマップ
 
 ### レイヤー一覧
