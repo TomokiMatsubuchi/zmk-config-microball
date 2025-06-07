@@ -1,0 +1,19 @@
+{
+  "name": "zmk-keymap-readme-updater",
+  "version": "1.0.0",
+  "description": "ZMK keymap README.md generator",
+  "type": "module",
+  "main": "update_readme.ts",
+  "scripts": {
+    "build": "tsc update_readme.ts --outDir dist --target es2022 --module es2022 --moduleResolution node --strict --esModuleInterop --allowSyntheticDefaultImports --types node",
+    "start": "node dist/update_readme.js"
+  },
+  "devDependencies": {
+    "@types/node": "^18.19.111",
+    "@types/pdfkit": "^0.12.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "pdfkit": "^0.17.1"
+  }
+}
