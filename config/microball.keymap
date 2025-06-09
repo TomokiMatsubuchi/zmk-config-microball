@@ -78,27 +78,27 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
+&kp LC(LA(E))  &trans         &trans         &trans                  &trans                                        &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
+&kp LC(LA(D))  &kp LC(LA(F))  &kp LC(LA(G))  &kp LC(LA(LEFT_ARROW))  &kp LC(LA(RIGHT_ARROW))  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
+&kp LC(LA(T))  &trans         &trans         &trans                  &trans                   &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
+&trans         &trans         &trans         &trans                  &trans                   &trans      &trans   &trans                          &kp F12
             >;
         };
 
         NUM {
             bindings = <
-&kp DOUBLE_QUOTES  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp RIGHT_PARENTHESIS                                              &kp LEFT_PARENTHESIS  &kp EXCLAMATION  &kp CARET  &kp BACKSLASH  &kp DOLLAR
-&kp COLON          &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp RIGHT_BRACKET      &kp LC(LA(KP_NUMBER_0))      &kp AT_SIGN    &kp LEFT_BRACKET      &kp MINUS        &kp PLUS   &kp HASH       &kp SINGLE_QUOTE
-&kp LEFT_SHIFT     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp RIGHT_BRACE        &kp EQUAL                    &kp AMPERSAND  &kp LEFT_BRACE        &kp GRAVE        &kp EQUAL  &kp PIPE       &kp QUESTION
-&kp UNDERSCORE     &kp KP_NUMBER_0  &kp PERIOD       &trans           &trans                 &trans                       &trans         &trans                                                           &kp ASTERISK
+&kp DOUBLE_QUOTES  &kp N7        &kp N8        &kp N9        &kp RIGHT_PARENTHESIS                                              &kp LEFT_PARENTHESIS  &kp EXCLAMATION  &kp CARET  &kp BACKSLASH  &kp DOLLAR
+&kp COLON          &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp RIGHT_BRACKET      &kp LC(LA(KP_NUMBER_0))      &kp AT_SIGN    &kp LEFT_BRACKET      &kp MINUS        &kp PLUS   &kp HASH       &kp SINGLE_QUOTE
+&kp LEFT_SHIFT     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RIGHT_BRACE        &kp EQUAL                    &kp AMPERSAND  &kp LEFT_BRACE        &kp GRAVE        &kp EQUAL  &kp PIPE       &kp QUESTION
+&kp UNDERSCORE     &kp NUMBER_0  &kp PERIOD    &trans        &trans                 &trans                       &trans         &trans                                                           &kp ASTERISK
             >;
         };
 
         ARROW {
             bindings = <
 &kp ESCAPE      &kp LC(LS(TAB))         &trans          &kp LC(TAB)              &trans                       &trans  &trans              &trans               &trans  &trans
-&kp HOME        &kp LEFT_ARROW          &kp UP_ARROW    &kp RIGHT_ARROW          &kp END  &trans      &trans  &trans  &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &trans  &trans
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &kp DOWN_ARROW  &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans  &trans              &trans               &trans  &trans
+&kp HOME        &kp LS(LG(LEFT_ARROW))  &kp UP_ARROW    &kp LS(LG(RIGHT_ARROW))  &kp END  &trans      &trans  &trans  &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &trans  &trans
+&kp LEFT_SHIFT  &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &trans   &trans      &trans  &trans  &trans              &trans               &trans  &trans
 &trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                                                   &trans
             >;
 
